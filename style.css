@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.resume-wrapper{
+	border: 1px solid lightgray;
+	width: 720px;
+	min-height: 100vh;
+	margin-top: 50px;
+	padding: 20px 0;
+
+	transform: translateX(50%);
+}
+
+/* header 相关 */
+header{
+	padding: 10px 50px;
+}
+header img{
+	float: left;
+	width: 120px;
+	height: 130px;
+}
+header .personal{
+	float: right;
+	margin-top: 14px;
+	margin-right: 55px;
+}
+
+/* 分割线*/
+.divide{
+	width: 565px;
+	height: 3px;
+	border: 1px solid gray;
+	background: #9a896f; 
+	margin: 15px 0 0 50px;
+}
+
+
+/* 基本信息 */
+.content-wrapper{
+	margin-top: 20px;
+}
+
+section{
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.basicinfo .title{
+	display: flex;
+}
+.basicinfo .one{
+	width: 3px; height: 31px;
+	background: #9a896f;
+	margin-right: 3px;
+}
+.basicinfo .two{
+	width: 7px; height: 31px;
+	background: #9a896f;
+	margin-right: 5px;
+}
+.basicinfo .three{
+	width: 12px; height: 31px;
+	background: #9a896f;
+	margin-right: 7px;
+}
+.basicinfo .title-text{
+	padding: 3px 5px;	
+	color: #fff; 
+	background: #9a896f;
+}
