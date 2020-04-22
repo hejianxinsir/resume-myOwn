@@ -21,7 +21,7 @@ body{
 
 /* header 相关 */
 header{
-	padding: 0px 50px;
+	padding: 0px 20px;
 	margin-top: 30px;
 }
 header > img{
@@ -45,11 +45,11 @@ header .personal .contact{
 
 /* 分割线*/
 .divide{
-	width: 525px;
+	width: 585px;
 	height: 3px;
 	border: 1px solid gray;
 	background: #9a896f; 
-	margin: 15px 0 0 90px;
+	margin: 15px 0 0 60px;
 }
 
 
