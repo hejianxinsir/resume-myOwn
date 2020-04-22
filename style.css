@@ -16,40 +16,38 @@ body{
 .resume-wrapper{
 	border-radius: 5px;
 	max-width: 720px;
-	padding: 10px;
 }
 
 /* header 相关 */
 header{
-	padding: 0px 20px;
 	margin-top: 30px;
+	display: flex;
 }
 header > img{
-	float: left;
+	/*float: left;*/
 	width: 120px;
 	height: 130px;
-	margin-left: 40px;
+	margin-left: 10px;
 }
 header > .personal{
-	float: right;
-	margin-top: 10px;
-	margin-right: 45px;
+	/*float: right;
+	margin-top: 10px;*/
+	margin-left: 30px;
 }
 header .personal .position{
 	margin: 7px 0;
 }
 header .personal .contact{
-	color: gray;
+	color: #313131;
 	font-size: 16px;
 }
 
 /* 分割线*/
 .divide{
-	width: 585px;
+	width: 675px;
 	height: 3px;
-	border: 1px solid gray;
 	background: #9a896f; 
-	margin: 15px 0 0 60px;
+	margin: 15px 0 0 10px;
 }
 
 
@@ -68,9 +66,12 @@ section > p{
 section.skills > ul{
 	padding: 0 20px;
 }
+section.skills > ul > li > h3{
+	font-size: 16px;
+}
 section.skills > ul > li > p{
 	margin: 5px 0 15px 0;
-	color: gray;
+	color: #313131;
 }
 
 .basicinfo .title{
@@ -117,7 +118,7 @@ div.canvas {
 }
 div.canvas > img{
 	width: 180px; height: 320px;
-	box-shadow: 2px 1px 1px lightgray;
+	box-shadow: 1px 1px 1px lightgray;
 }
 div.canvas > p.introduce{
 	max-width: 200px;
