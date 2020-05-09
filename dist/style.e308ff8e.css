@@ -74,6 +74,7 @@ section.skills > ul > li > p{
 	color: #313131;
 }
 
+/* */
 .basicinfo .title{
 	margin-bottom: 10px;
 	display: flex;
@@ -101,29 +102,49 @@ section.skills > ul > li > p{
 
 /* 作品图 */
 section.works{
-	padding: 10px 10px;
+	padding: 10px;
 	margin-bottom: 0;
 }
 section.works > main{
-	padding: 0 50px;
-
+	padding: 0 20px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
 }
 
-div.canvas {
+div.collects {
 	min-width: 210px;
 	margin-bottom: 10px;
 }
-div.canvas > img{
-	width: 180px; height: 320px;
-	box-shadow: 1px 1px 1px lightgray;
+div.collects > img{
+	width: 250px; height: 445px;
 }
-div.canvas > p.introduce{
+div.collects > p.introduce{
 	max-width: 200px;
 	margin: 10px 0;
 }
+
+div.sameSize{
+	margin-left: 10px;
+}
+div.sameSize img{
+	width: 600px;
+	height: 340px;
+}
+div.sameSize > p{
+	width: 90%;
+	margin: 25px 0;
+}
+
+div.react-todo > img{
+	height: 680px;
+}
+div.pikaqiu > img{
+	height: 570px;
+}
+
+
 
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
