@@ -16,6 +16,7 @@ body{
 .resume-wrapper{
 	border-radius: 5px;
 	max-width: 720px;
+	margin-left: 45px;
 }
 
 /* header 相关 */
