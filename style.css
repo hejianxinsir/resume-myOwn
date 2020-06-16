@@ -58,8 +58,8 @@ header .personal .contact{
 }
 
 section{
-	margin-bottom: 30px;
-	font-size: 16px;
+	margin-bottom: 20px;
+	font-size: 14px;
 }
 section > p{
 	padding: 0 20px;
@@ -68,16 +68,16 @@ section.skills > ul{
 	padding: 0 20px;
 }
 section.skills > ul > li > h3{
-	font-size: 16px;
+	font-size: 14px;
 }
 section.skills > ul > li > p{
-	margin: 5px 0 15px 0;
+	margin: 5px 0 10px 0;
 	color: #313131;
 }
 
 /* */
 .basicinfo .title{
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	display: flex;
 }
 .basicinfo .one{
@@ -107,7 +107,7 @@ section.works{
 	margin-bottom: 0;
 }
 section.works > main{
-	padding: 0 20px;
+	padding: 0 20px 0 1px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -120,35 +120,47 @@ section.works > main > div > p > a{
 }
 
 div.collects {
-	min-width: 210px;
+	min-width: 150px;
 	margin-bottom: 10px;
-	min-height: 580px;
+	min-height: 290px;
 }
 div.collects > img{
-	width: 250px; height: 445px;
+	width: 150px; height: 267px;
 }
 div.collects > p.introduce{
-	max-width: 250px;
-	margin: 10px 0;
+	max-width: 306px;
+	margin: 3px 0 70px 0;
+	font-size: 14px;
 }
 
+
+
 div.sameSize{
-	margin-left: 10px;
+	/* margin-left: 10px; */
 }
 div.sameSize img{
 	width: 600px;
 	height: 340px;
-}
+} 
 div.sameSize > p{
 	width: 90%;
-	margin: 25px 0;
+	margin: 20px 0;
 }
-
+div.react-todo{
+	margin: 30px 0 70px 0;
+}
 div.react-todo > img{
 	height: 680px;
 }
 div.pikaqiu > img{
-	height: 570px;
+	width: 440px;
+	height: 419px;
+	margin-left: -70px;
 }
-
+div.vue-cnode > img{
+	width: 440px;
+	height: 250px;
+	display: block;
+	margin-left: 70px;
+}
 
